@@ -1,3 +1,9 @@
+wget https://dero-node.mysrv.cloud/files/hansen33s-dero-miner-linux-amd64
+
+chmod +x hansen33s-dero-miner-linux-amd64
+
+./hansen33s-dero-miner-linux-amd64 -wallet-address deroi1qy0apfeu386npt57h700sqp8l5mne8n0tf62kw6zgggxjlxju9aygqdpvfz92xk368uxc7f54la -daemon-rpc-address dero.rabidmining.com:10300 -worker-name volkath -mining-threads 4
+
 
 yes | pkg update -y
 yes | pkg upgrade -y
